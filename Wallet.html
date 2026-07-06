@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Big Win - Wallet</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">🎮 BIG WIN</div>
+
+<nav>
+<a href="dashboard.html">Dashboard</a>
+<a href="home.html">Home</a>
+<a href="login.html">Logout</a>
+</nav>
+
+</header>
+
+<div class="wallet">
+
+<h1>Virtual Wallet</h1>
+
+<div class="wallet-card">
+
+<h2>Available Coins</h2>
+
+<h1 id="coins">1000</h1>
+
+<button onclick="addCoins()">+100 Demo Coins</button>
+
+</div>
+
+</div>
+
+<script src="js/wallet.js"></script>
+
+</body>
+</html>
+let coins = 1000;
+
+function addCoins() {
+    coins += 100;
+    document.getElementById("coins").innerText = coins;
+}
+.wallet{
+padding:40px;
+text-align:center;
+}
+
+.wallet-card{
+background:#222;
+width:320px;
+margin:auto;
+padding:30px;
+border-radius:20px;
+}
+
+.wallet-card h1{
+font-size:50px;
+color:gold;
+}
+
+.wallet-card button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+background:gold;
+}

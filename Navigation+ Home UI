@@ -1,0 +1,84 @@
+<nav>
+    <div class="logo">🎮 BIG WIN</div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Leaderboard</a></li>
+        <li><a href="#">Profile</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+<h1>Welcome to Big Win</h1>
+
+<p>Play exciting demo games and compete with friends.</p>
+
+<button>Play Now</button>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h2>Demo Games</h2>
+<p>Fun games without real-money betting.</p>
+</div>
+
+<div class="card">
+<h2>Leaderboard</h2>
+<p>See the top players.</p>
+</div>
+
+<div class="card">
+<h2>Your Profile</h2>
+<p>Manage your account.</p>
+</div>
+
+</section>
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+background:#1b1b1b;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:gold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+padding:30px;
+}
+
+.card{
+background:#222;
+padding:20px;
+border-radius:15px;
+width:250px;
+text-align:center;
+}

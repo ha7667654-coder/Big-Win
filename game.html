@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Big Win - Games</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">🎮 BIG WIN</div>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="wallet.html">Wallet</a>
+<a href="login.html">Logout</a>
+</nav>
+</header>
+
+<section class="games-page">
+
+<h1>Choose Your Game</h1>
+
+<div class="game-grid">
+
+<div class="game-card">
+<h2>🧩 Puzzle</h2>
+<p>Test your brain.</p>
+<button>Play</button>
+</div>
+
+<div class="game-card">
+<h2>🏎 Racing</h2>
+<p>Fast racing challenge.</p>
+<button>Play</button>
+</div>
+
+<div class="game-card">
+<h2>🎯 Arcade</h2>
+<p>Classic arcade fun.</p>
+<button>Play</button>
+</div>
+
+<div class="game-card">
+<h2>🧠 Memory</h2>
+<p>Improve your memory.</p>
+<button>Play</button>
+</div>
+
+</div>
+
+</section>
+
+</body>
+  </html>
+  .games-page{
+padding:40px;
+text-align:center;
+}
+
+.game-grid{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.game-card{
+width:250px;
+background:#222;
+padding:25px;
+border-radius:15px;
+transition:0.3s;
+}
+
+.game-card:hover{
+transform:translateY(-8px);
+}
+
+.game-card h2{
+color:gold;
+}
+
+.game-card button{
+margin-top:15px;
+padding:10px 25px;
+border:none;
+border-radius:8px;
+background:gold;
+cursor:pointer;
+font-size:16px;
+}

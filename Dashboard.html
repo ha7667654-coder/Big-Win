@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Big Win - Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">🎮 BIG WIN</div>
+<nav>
+<a href="home.html">Home</a>
+<a href="#">Profile</a>
+<a href="#">Leaderboard</a>
+<a href="login.html">Logout</a>
+</nav>
+</header>
+
+<div class="dashboard">
+
+<h1>Welcome, Player!</h1>
+
+<div class="profile-card">
+<img src="https://via.placeholder.com/120" alt="Profile">
+<h2>Player Name</h2>
+<p>ID: BW100001</p>
+<p>Level: 1</p>
+<p>Virtual Coins: 1000</p>
+</div>
+
+<div class="menu">
+
+<div class="box">
+<h3>🎮 Games</h3>
+<p>Browse demo games</p>
+</div>
+
+<div class="box">
+<h3>🏆 Leaderboard</h3>
+<p>Top players</p>
+</div>
+
+<div class="box">
+<h3>⚙ Settings</h3>
+<p>Manage account</p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+  </html>
+  .dashboard{
+padding:40px;
+text-align:center;
+}
+
+.profile-card{
+background:#222;
+width:320px;
+margin:30px auto;
+padding:25px;
+border-radius:20px;
+}
+
+.profile-card img{
+width:120px;
+height:120px;
+border-radius:50%;
+}
+
+.menu{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.box{
+background:#222;
+width:220px;
+padding:20px;
+border-radius:15px;
+transition:.3s;
+}
+
+.box:hover{
+transform:scale(1.05);
+}
